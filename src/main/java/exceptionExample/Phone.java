@@ -25,4 +25,10 @@ public class Phone {
     public String getPhoneNumber() {
         return phoneNumber;
     }
+
+    //Overriding the toString method
+    @Override
+    public String toString() {
+        return "The phone type is " +phoneType + ". The phone number is " +phoneNumber + ".";
+    }
 }
