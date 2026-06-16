@@ -10,6 +10,7 @@ public class Phone {
 
         //added a conditional statement to make sure that phoneNumber and phoneType are not null
         if (phoneNumber == null | phoneType == null){
+            //This is where the "getLocalizedMessage" is coming for when it is called in PhoneExceptionTester file
          throw new IllegalArgumentException("The type and number can not be null");
         }
         this.phoneType = phoneType;
