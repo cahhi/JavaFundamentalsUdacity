@@ -7,8 +7,16 @@ public class CollectionsExercise {
 
     public static void main(String[] args){
 
-        //Instatiating list object
+        //Instantiating list object
         List<String> listOfItems = new LinkedList<String>();
+
+        //Adding objects to the list
+        listOfItems.add("Mike");
+        listOfItems.add("Bob");
+        listOfItems.add("Alice");
+
+
+
 
     }
 }
