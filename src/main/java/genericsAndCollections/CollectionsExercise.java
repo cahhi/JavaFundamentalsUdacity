@@ -15,7 +15,10 @@ public class CollectionsExercise {
         listOfItems.add("Bob");
         listOfItems.add("Alice");
 
-
+        //utilizing a for each loop to print out each item
+        for (String names : listOfItems) {
+            System.out.println(names);
+        }
 
 
     }
