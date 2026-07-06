@@ -1,13 +1,13 @@
 package advancedCollections;
 
-public class mapsExample {
+public class Person {
 
     //Declaring the variables
     String name;
     String email;
 
     //Creating the constructor
-    public mapsExample (String name, String email) {
+    public Person (String name, String email) {
         this.name = name;
         this.email = email;
     }
